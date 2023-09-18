@@ -1,0 +1,63 @@
+atomicwrites==1.4.0
+attrs @ file:///Users/ec2-user/ci_py311/attrs_1678315289647/work
+Automat @ file:///tmp/build/80754af9/automat_1600298431173/work
+autopep8 @ file:///opt/conda/conda-bld/autopep8_1650463822033/work
+Babel @ file:///Users/ec2-user/ci_py311/babel_1678318085010/work
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+backports.functools-lru-cache @ file:///tmp/build/80754af9/backports.functools_lru_cache_1618170165463/work
+backports.tempfile @ file:///home/linux1/recipes/ci/backports.tempfile_1610991236607/work
+backports.weakref==1.0.post1
+bcrypt @ file:///Users/ec2-user/ci_py311/bcrypt_1678325873219/work
+beautifulsoup4 @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_bczxn9gqkq/croot/beautifulsoup4-split_1681493044307/work
+binaryornot @ file:///tmp/build/80754af9/binaryornot_1617751525010/work
+black @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_1f1pcodmuo/croot/black_1680737253550/work
+bleach @ file:///opt/conda/conda-bld/bleach_1641577558959/work
+bokeh @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_258ryuohc7/croot/bokeh_1690546089457/work
+boltons @ file:///Users/ec2-user/ci_py311/boltons_1678396074811/work
+boto3 @ file:///Users/ec2-user/ci_py311_2/boto3_1679335351182/work
+botocore @ file:///Users/ec2-user/ci_py311/botocore_1678320133200/work
+Bottleneck @ file:///Users/ec2-user/ci_py311/bottleneck_1678322312632/work
+brotlipy==0.7.0
+certifi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_2emnmf1qow/croot/certifi_1690232232440/work/certifi
+cffi @ file:///Users/ec2-user/ci_py311/cffi_1678315312775/work
+chardet @ file:///Users/ec2-user/ci_py311/chardet_1678326102860/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click @ file:///Users/ec2-user/ci_py311/click_1678318124837/work
+cloudpickle @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_c57ujq_pgm/croot/cloudpickle_1683040025620/work
+clyent==1.2.2
+colorama @ file:///Users/ec2-user/ci_py311/colorama_1678320227414/work
+colorcet @ file:///Users/ec2-user/ci_py311/colorcet_1678380145131/work
+comm @ file:///Users/ec2-user/ci_py311/comm_1678317779525/work
+conda @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_81tsx0kkoj/croot/conda_1694544082946/work
+conda-build @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_c8poihhv7b/croot/conda-build_1690381796903/work
+conda-content-trust @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_3dvkcnnrtu/croot/conda-content-trust_1693490624887/work
+conda-libmamba-solver @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_b7jucd8kvj/croot/conda-libmamba-solver_1685032330942/work/src
+conda-pack @ file:///tmp/build/80754af9/conda-pack_1611163042455/work
+conda-package-handling @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_99vcqjo8cf/croot/conda-package-handling_1690999935230/work
+conda-repo-cli==1.0.41
+conda-token @ file:///Users/paulyim/miniconda3/envs/c3i/conda-bld/conda-token_1662660369760/work
+conda-verify==3.4.2
+conda_index @ file:///Users/ec2-user/ci_py311/conda-index_1678409305677/work
+conda_package_streaming @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_d5wg6eonuu/croot/conda-package-streaming_1690987980119/work
+constantly==15.1.0
+contourpy @ file:///Users/ec2-user/ci_py311/contourpy_1678322361099/work
+cookiecutter @ file:///opt/conda/conda-bld/cookiecutter_1649151442564/work
+cryptography @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_e2pplk40z3/croot/cryptography_1689373680118/work
+cssselect==1.1.0
+cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
+cytoolz @ file:///Users/ec2-user/ci_py311/cytoolz_1678326214370/work
+dask @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_ccdxmmxbox/croot/dask-core_1686782920612/work
+datashader @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_2bt39ljus7/croot/datashader_1689603656595/work
+datashape==0.5.4
+debugpy @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_30hp2nowkm/croot/debugpy_1690905056188/work
+decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
+defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
+diff-match-patch @ file:///Users/ktietz/demo/mc3/conda-bld/diff-match-patch_1630511840874/work
+dill @ file:///Users/ec2-user/ci_py311/dill_1678323290904/work
+distributed @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_95i88jlqtp/croot/distributed_1686866052419/work
+dnspython==2.4.2
+httpcore==0.18.0
+httpx==0.25.0
+jsonpointer==2.1
+pandas==1.5.3
+pymongo==4.5.0
