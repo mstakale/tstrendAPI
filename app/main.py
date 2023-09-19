@@ -62,7 +62,7 @@ def get_data():
 @app.route('/trend', methods=['GET'])
 def calculate_trend():
 
-        """
+    """
     Calculate the trend based on the Simple Moving Average (SMA) of the 'Open' column.
 
     Args:
