@@ -1,8 +1,8 @@
 
 ```markdown
-# Crypto Time Series API
+#Time Series API
 
-Crypto Time Series API is a Flask-based web service that provides cryptocurrency time series data within a specified time range 
+Time Series API is a Flask-based web service that provides cryptocurrency time series data within a specified time range 
 and trend information for a given window in time series data. 
 This API is designed to help users analyze and visualize cryptocurrency market trends.
 
