@@ -13,7 +13,7 @@ Ensure you have Python and MongoDB installed on your system before proceeding.
 
 ### Prerequisites
 
-- Python 3.x
+- Python 3.8.x
 - MongoDB
 
 ### Installation
@@ -21,13 +21,13 @@ Ensure you have Python and MongoDB installed on your system before proceeding.
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/crypto-time-series-api.git
+   git clone git@github.com:mstakale/tstrendAPI.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd crypto-time-series-api
+   cd tstrendAPI
    ```
 
 3. Install the required Python dependencies using pip:
