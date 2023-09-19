@@ -91,8 +91,8 @@ Run the Flask API using the following command:
 
 
 ```http
-GET http://127.0.0.1:5000/trend?collection_name=BNB&window=7d
 GET http://127.0.0.1:5000/get_data?collection_name=BTC&start_date=2015-04-02T23:59:59.000Z&end_date=2015-04-04T23:59:59.000Z
+GET http://127.0.0.1:5000/trend?collection_name=BNB&window=7d
 ```
 
 ### Running Tests
