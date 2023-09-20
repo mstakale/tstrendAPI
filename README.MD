@@ -80,6 +80,34 @@ Run the Flask API using the following command:
 - `start_date` (string, ISO 8601 format): The start date for data retrieval.
 - `end_date` (string, ISO 8601 format): The end date for data retrieval.
 
+Example Usage
+To retrieve data for the sample collection for the time range from 2023-09-01T00:00:00.000Z to 2023-09-02T00:00:00.000Z, you would send a GET request to the following endpoint:
+
+/get_data?collection_name=BTC&start_date=2015-04-02T23:59:59.000Z&end_date=2015-04-04T23:59:59.000Z
+
+The response would be a JSON object containing an array of data points, as follows:
+
+```json
+[
+  {
+    "_id": "6326d680c22a212c352b26a1",
+    "Date": "2023-09-01T00:00:00.000Z",
+    "Open": 100.0,
+    "High": 101.0,
+    "Low": 99.0,
+    "Close": 100.5
+  },
+  {
+    "_id": "6326d680c22a212c352b26a2",
+    "Date": "2023-09-02T00:00:00.000Z",
+    "Open": 100.5,
+    "High": 101.5,
+    "Low": 99.5,
+    "Close": 101.0
+  }
+]
+```
+
 ### 2. Calculate Data Trend
 
 - **Endpoint**: `/trend`
@@ -90,10 +118,20 @@ Run the Flask API using the following command:
 - `window` (string): The time window for trend calculation (e.g., '7d' for 7 days, '24h' for 24 hours, '60m' for 60 minutes).
 
 
-```http
-GET http://127.0.0.1:5000/get_data?collection_name=BTC&start_date=2015-04-02T23:59:59.000Z&end_date=2015-04-04T23:59:59.000Z
-GET http://127.0.0.1:5000/trend?collection_name=BNB&window=7d
+To calculate the trend of the `Open` column for the `sample` collection for the past 7 days, you would send a GET request to the following endpoint:
+
+/trend?collection_name=BNB&window=7d
+
+The response would be a JSON object containing the number of data points and the trend, as follows:
+
+```JSON
+{
+  "dataPoints": 10,
+  "trend": "increase"
+}
 ```
+
+
 
 ### Running Tests
 
