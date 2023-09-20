@@ -90,20 +90,24 @@ The response would be a JSON object containing an array of data points, as follo
 ```json
 [
   {
-    "_id": "6326d680c22a212c352b26a1",
-    "Date": "2023-09-01T00:00:00.000Z",
-    "Open": 100.0,
-    "High": 101.0,
-    "Low": 99.0,
-    "Close": 100.5
+    "Adj Close": 254.322006,
+    "Close": 254.322006,
+    "Date": "Fri, 03 Apr 2015 00:00:00 GMT",
+    "High": 256.042999,
+    "Low": 251.878998,
+    "Open": 253.074005,
+    "Volume": 23146600,
+    "_id": "65056dbb025828284f407873"
   },
   {
-    "_id": "6326d680c22a212c352b26a2",
-    "Date": "2023-09-02T00:00:00.000Z",
-    "Open": 100.5,
-    "High": 101.5,
-    "Low": 99.5,
-    "Close": 101.0
+    "Adj Close": 253.697006,
+    "Close": 253.697006,
+    "Date": "Sat, 04 Apr 2015 00:00:00 GMT",
+    "High": 255.257996,
+    "Low": 251.100006,
+    "Open": 254.291,
+    "Volume": 12493500,
+    "_id": "65056dbb025828284f407874"
   }
 ]
 ```
@@ -126,7 +130,7 @@ The response would be a JSON object containing the number of data points and the
 
 ```JSON
 {
-  "dataPoints": 10,
+  "dataPoints": 16,
   "trend": "increase"
 }
 ```
