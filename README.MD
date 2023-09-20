@@ -13,7 +13,7 @@ Ensure you have Python and MongoDB installed on your system before proceeding.
 
 ### Prerequisites
 
-- Python 3.8.x
+- Python 3.8 and above
 - MongoDB
 
 ### Installation
